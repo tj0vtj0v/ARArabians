@@ -1,0 +1,583 @@
+#Pferde { 
+  display: flex; 
+}
+
+
+/* Seite "Unsere Pferde" */
+
+  .boxStute {
+    width: 300px;
+    height: 300px;
+    border:  2px solid grey;
+    border-radius: 1em 1em 1em 1em;
+    margin:  20px auto;
+    padding: 2em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .StutenTitelbild{
+    width: 367px;
+    height: 375px;
+    margin: -2em;
+    border-radius: 1em 1em 1em 1em;
+  }
+  .textStute{
+    position: absolute;
+    color: white;
+    text-align: right;
+    margin: 100px;
+    font-size: 20px;
+  }
+  .boxFohlen {
+    width: 300px;
+    height: 300px;
+    background-color: lightgrey;
+    border:  2px solid Grey;
+    border-radius: 1em 1em 1em 1em;
+    margin:  20px auto;
+    padding: 2em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .FohlenTitelbild{
+    width: 367px;
+    height: 375px;
+    margin: -2em;
+    border-radius: 1em 1em 1em 1em;
+    object-fit: cover;
+  }
+  .textFohlen{
+    position: absolute;
+    color: white;
+    text-align: right;
+    margin: 100px;
+    font-size: 20px;
+  }
+
+ .boxHengst{
+    width: 300px;
+    height: 300px;
+    background-color: lightgrey;
+    border:  2px solid grey;
+    border-radius: 1em 1em 1em 1em;
+    margin:  20px auto;
+    padding: 2em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+ }
+ .HengstTitelbild{
+  width: 367px;
+  height: 375px;
+  margin: -2em;
+  border-radius: 1em 1em 1em 1em;
+  object-fit: cover;
+}
+.textHengst{
+  position: absolute;
+  color: white;
+  text-align: right;
+  margin: 100px;
+  font-size: 20px;
+}
+
+ .boxRentner{
+    width: 300px;
+    height: 300px;
+    background-color: lightgrey;
+    border:  2px solid grey;
+    border-radius: 1em 1em 1em 1em;
+    margin:  20px auto;
+    padding: 2em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+ }
+ .RentnerTitelbild{
+  width: 367px;
+  height: 375px;
+  margin: -2em;
+  border-radius: 1em 1em 1em 1em;
+}
+.textRentner{
+  position: absolute;
+  color: white;
+  text-align: right;
+  margin: 100px;
+  font-size: 20px;
+}
+
+ .boxStute:hover {
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+   
+ }
+
+ .boxFohlen:hover {
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+   
+ }
+
+ .boxHengst:hover {
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+   
+ }
+
+ .boxRentner:hover {
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+ 
+
+
+/* Seite Hengste */
+
+   
+ }
+ #Hengste { display: flex; }
+ .Hengst1{
+   width: 300px;
+   height: 300px;
+   color: white;
+   background-color: lightgrey;
+   border:  2px solid grey;
+   border-radius: 1em 1em 1em 1em;
+   margin:  20px auto;
+   padding: 2em;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 18px;
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+ }
+
+ .BildJadaan{
+  width: 370px;
+  height: 390px;
+  margin: -3em;
+  border-radius: 1em 1em 1em 1em;
+  object-fit: cover;
+ }
+
+ .textJadaan{
+  position: absolute;
+  color: white;
+  text-align: right;
+  margin: 100px;
+  font-size: 20px;
+ }
+
+
+ /* Seite Fohlen */
+
+ #Fohlen2022 { display: flex; }
+ .Fohlen1{
+   width: 200px;
+   height: 200px;
+   color: white;
+   background-color: lightgrey;
+   border:  2px solid grey;
+   border-radius: 1em 1em 1em 1em;
+   margin:  20px auto;
+   padding: 2em;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 18px;
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+ }
+
+ .Fohlen2{
+   width: 200px;
+   height: 200px;
+   color: white;
+   background-color: lightgrey;
+   border:  2px solid grey;
+   border-radius: 1em 1em 1em 1em;
+   margin:  20px auto;
+   padding: 2em;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 18px;
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+ }
+ #Fohlen2023 { display: flex; }
+ .Bella{
+   width: 200px;
+   height: 200px;
+   color: white;
+   background-color: lightgrey;
+   border:  2px solid grey;
+   border-radius: 1em 1em 1em 1em;
+   margin:  20px auto;
+   padding: 2em;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 18px;
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+ }
+
+ .Sharina{
+   width: 200px;
+   height: 200px;
+   color: white;
+   background-color: lightgrey;
+   border:  2px solid grey;
+   border-radius: 1em 1em 1em 1em;
+   margin:  20px auto;
+   padding: 2em;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 18px;
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+ }
+
+ .Aliya{
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: lightgrey;
+  border:  2px solid grey;
+  border-radius: 1em 1em 1em 1em;
+  margin:  20px auto;
+  padding: 2em;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: inset 500px 0 0 0 white;
+  color: white;
+  box-shadow: 0 0 50px 10px grey;
+}
+
+.BildBella{
+  width: 370px;
+  height: 390px;
+  margin: -3em;
+  border-radius: 1em 1em 1em 1em;
+  object-fit: cover;
+ }
+
+ .BildSharina{
+  width: 370px;
+  height: 390px;
+  margin: -3em;
+  border-radius: 1em 1em 1em 1em;
+  object-fit: cover;
+ }
+
+
+ .BildAliya{
+  width: 370px;
+  height: 390px;
+  margin: -3em;
+  border-radius: 1em 1em 1em 1em;
+  object-fit: cover;
+ }
+
+ .textBella{
+  position: absolute;
+  color: white;
+  text-align: right;
+  margin: 100px;
+  font-size: 20px;
+ }
+
+ .textSharina{
+  position: absolute;
+  color: white;
+  text-align: right;
+  margin: 100px;
+  font-size: 20px;
+ }
+
+ .textAliya{
+  position: absolute;
+  color: white;
+  text-align: right;
+  margin: 100px;
+  font-size: 20px;
+ }
+
+
+
+/* Seite Stute  */
+
+
+ #Stuten { display: flex; }
+ .Madeenah{
+   width: 200px;
+   height: 200px;
+   color: white;
+   background-color: lightgrey;
+   border:  2px solid grey;
+   border-radius: 1em 1em 1em 1em;
+   margin:  20px auto;
+   padding: 2em;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 18px;
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+ }
+
+ .Baleegha{
+   width: 200px;
+   height: 200px;
+   color: white;
+   background-color: lightgrey;
+   border:  2px solid grey;
+   border-radius: 1em 1em 1em 1em;
+   margin:  20px auto;
+   padding: 2em;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 18px;
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+ }
+ .Mahira{
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: lightgrey;
+  border:  2px solid grey;
+  border-radius: 1em 1em 1em 1em;
+  margin:  20px auto;
+  padding: 2em;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: inset 500px 0 0 0 white;
+  color: white;
+  box-shadow: 0 0 50px 10px grey;
+}
+
+.Bariya{
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: lightgrey;
+  border:  2px solid grey;
+  border-radius: 1em 1em 1em 1em;
+  margin:  20px auto;
+  padding: 2em;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: inset 500px 0 0 0 white;
+  color: white;
+  box-shadow: 0 0 50px 10px grey;
+}
+
+.Salome{
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: lightgrey;
+  border:  2px solid grey;
+  border-radius: 1em 1em 1em 1em;
+  margin:  20px auto;
+  padding: 2em;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: inset 500px 0 0 0 white;
+  color: white;
+  box-shadow: 0 0 50px 10px grey;
+}
+
+.Priera{
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: lightgrey;
+  border:  2px solid grey;
+  border-radius: 1em 1em 1em 1em;
+  margin:  20px auto;
+  padding: 2em;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: inset 500px 0 0 0 white;
+  color: white;
+  box-shadow: 0 0 50px 10px grey;
+}
+
+.Stute4{
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: lightgrey;
+  border:  2px solid grey;
+  border-radius: 1em 1em 1em 1em;
+  margin:  20px auto;
+  padding: 2em;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: inset 500px 0 0 0 white;
+  color: white;
+  box-shadow: 0 0 50px 10px grey;
+}
+
+
+ /* Seite Rentner  */
+
+
+ #Rentner { display: flex; }
+ .Renter1{
+   width: 200px;
+   height: 200px;
+   color: white;
+   background-color: lightgrey;
+   border:  2px solid grey;
+   border-radius: 1em 1em 1em 1em;
+   margin:  20px auto;
+   padding: 2em;
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 18px;
+   box-shadow: inset 500px 0 0 0 white;
+   color: white;
+   box-shadow: 0 0 50px 10px grey;
+ }
+
+ .Gandhi{
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: lightgrey;
+  border:  2px solid grey;
+  border-radius: 1em 1em 1em 1em;
+  margin:  20px auto;
+  padding: 2em;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: inset 500px 0 0 0 white;
+  color: white;
+  box-shadow: 0 0 50px 10px grey;
+}
+
+
+/* Seite Über uns */
+
+.TeamWir{
+  width: 700px;
+  height: 300px;
+  border:  2px solid grey;
+  border-radius: 1em 1em 1em 1em;
+  margin:  20px auto;
+  padding: 2em;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Teams { 
+  display: flex; 
+  justify-content:space-between;
+  margin: 2em 8em 2em 8em ;
+}
+.Team {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Team:hover .Karte {
+  transform: rotateY(180deg);
+}
+
+.Karte, .front, .back{
+  width: 200px;
+  height: 200px;
+  border-radius: 1em;
+}
+
+.Karte {
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+}
+.front{
+  z-index: 1;
+  transform: rotateY(0deg);
+  background-color: grey;
+}
+
+.back {
+  z-index: 1;
+  transform: rotateY(180deg);
+  background-color: black;
+}
+
+
+/* Seite Kontakt */
+
+
+#Kontakt{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  width: 400px;
+  height: 400px;
+}
+
+.Kontaktdaten{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Kontaktbild{
+  width: 55px;
+  height: 55px;
+}
+
