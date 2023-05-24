@@ -12,6 +12,113 @@
             <a href="U:\Programmieren Urlaub\Homepage\Bilder.html" style="color: white">Bilder</a>
             
         <br> 
+    
+
+          <div class="input-div">
+            <p>Drag & drop photos here</p>
+            <input type="file" class="file" multiple="multiple" accept="image/jpeg, image/png, image/jpg">
+          </div>
+          
+          <output></output>
+          <script>
+            const inputDiv = document.querySelector(".input-div")
+            const input = document.querySelector("input")
+            const output = document.querySelector("output")
+            let imagesArray = []
+            input.addEventListener("change", () => {
+            input.addEventListener("change", () => {
+                const files = input.files
+                  })
+            })
+            input.addEventListener("change", () => {
+                const files = input.files
+                for (let i = 0; i < files.length; i++) {
+                  imagesArray.push(files[i])
+                }
+              })
+            input.addEventListener("change", () => {
+            const files = input.files
+            for (let i = 0; i < files.length; i++) {
+                imagesArray.push(files[i])
+            }
+            displayImages()
+            })
         
+
+            inputDiv.addEventListener("drop", (e) => {
+  
+            })
+
+            inputDiv.addEventListener("drop", (e) => {
+                e.preventDefault()
+                const files = e.dataTransfer.files
+              })
+
+
+              inputDiv.addEventListener("drop", () => {
+                e.preventDefault()
+                const files = e.dataTransfer.files
+                for (let i = 0; i < files.length; i++) {
+                  if (!files[i].type.match("image")) continue
+                }
+              })
+
+              inputDiv.addEventListener("drop", () => {
+                e.preventDefault()
+                const files = e.dataTransfer.files
+                for (let i = 0; i < files.length; i++) {
+                  if (!files[i].type.match("image")) continue
+              
+                  if (imagesArray.every(image => image.name !== files[i].name))
+                    imagesArray.push(files[i])
+                }
+              })
+
+              inputDiv.addEventListener("drop", () => {
+                e.preventDefault()
+                const files = e.dataTransfer.files
+                for (let i = 0; i < files.length; i++) {
+                  if (!files[i].type.match("image")) continue;
+              
+                  if (imagesArray.every(image => image.name !== files[i].name))
+                    imagesArray.push(files[i])
+                }
+                displayImages()
+              })
+
+              function displayImages() {
+                let images = ""
+              }
+              function displayImages() {
+                let images = ""
+                imagesArray.forEach((image, index) => {
+                  images += `<div class="image">
+                              <img src="${URL.createObjectURL(image)}" alt="image">
+                              <span onclick="deleteImage(${index})">&times;</span>
+                            </div>`
+                })
+              }
+
+              function displayImages() {
+                let images = ""
+                imagesArray.forEach((image, index) => {
+                  images += `<div class="image">
+                              <img src="${URL.createObjectURL(image)}" alt="image">
+                              <span onclick="deleteImage(${index})">&times;</span>
+                            </div>`
+                })
+                output.innerHTML = images
+              }
+        
+              function deleteImage(index) {
+                imagesArray.splice(index, 1)
+                displayImages()
+              }
+
+
+        </script>
+       
+
+
     </body>
 </html>
