@@ -1,124 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+        <title>Bilder</title>
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body style="background-color:rgb(233, 227, 227);">
         <div style="text-align: right; width: auto; height: 15px; padding:15px; background-color:rgba(128, 128, 128, 0.827); box-shadow: 0 0 50px 10px grey; ">
-            <a href="U:\Programmieren Urlaub\Homepage\startseite.html" style="color: white">Startseite</a>
-            <a href="U:\Programmieren Urlaub\Homepage\Ueber_uns.html" style="color: white">Über uns</a>
-            <a href="U:\Programmieren Urlaub\Homepage\Unsere_Pferde.html" style="color: white">Unsere Pferde</a>
-            <a href="U:\Programmieren Urlaub\Homepage\Kontakt.html" style="color: white">Kontakt</a>
-            <a href="U:\Programmieren Urlaub\Homepage\Bilder.html" style="color: white">Bilder</a>
+            <a href="index.html" style="color: white">Startseite</a>
+            <a href="Ueber_uns.html" style="color: white">Über uns</a>
+            <a href="Unsere_Pferde.html" style="color: white">Unsere Pferde</a>
+            <a href="Kontakt.html" style="color: white">Kontakt</a>
+            <a href="Bilder.html" style="color: white">Bilder</a>
             
-        <br> 
+            <br> 
     
 
-          <div class="input-div">
-            <p>Drag & drop photos here</p>
-            <input type="file" class="file" multiple="multiple" accept="image/jpeg, image/png, image/jpg">
-          </div>
+            <div class="input-div">
+                <p>Drag & drop photos here</p>
+                <input type="file" class="file" multiple="multiple" accept="image/jpeg, image/png, image/jpg">
+            </div>
           
-          <output></output>
-          <script>
-            const inputDiv = document.querySelector(".input-div")
-            const input = document.querySelector("input")
-            const output = document.querySelector("output")
-            let imagesArray = []
-            input.addEventListener("change", () => {
-            input.addEventListener("change", () => {
-                const files = input.files
-                  })
-            })
-            input.addEventListener("change", () => {
-                const files = input.files
-                for (let i = 0; i < files.length; i++) {
-                  imagesArray.push(files[i])
-                }
-              })
-            input.addEventListener("change", () => {
-            const files = input.files
-            for (let i = 0; i < files.length; i++) {
-                imagesArray.push(files[i])
-            }
-            displayImages()
-            })
-        
-
-            inputDiv.addEventListener("drop", (e) => {
-  
-            })
-
-            inputDiv.addEventListener("drop", (e) => {
-                e.preventDefault()
-                const files = e.dataTransfer.files
-              })
-
-
-              inputDiv.addEventListener("drop", () => {
-                e.preventDefault()
-                const files = e.dataTransfer.files
-                for (let i = 0; i < files.length; i++) {
-                  if (!files[i].type.match("image")) continue
-                }
-              })
-
-              inputDiv.addEventListener("drop", () => {
-                e.preventDefault()
-                const files = e.dataTransfer.files
-                for (let i = 0; i < files.length; i++) {
-                  if (!files[i].type.match("image")) continue
-              
-                  if (imagesArray.every(image => image.name !== files[i].name))
-                    imagesArray.push(files[i])
-                }
-              })
-
-              inputDiv.addEventListener("drop", () => {
-                e.preventDefault()
-                const files = e.dataTransfer.files
-                for (let i = 0; i < files.length; i++) {
-                  if (!files[i].type.match("image")) continue;
-              
-                  if (imagesArray.every(image => image.name !== files[i].name))
-                    imagesArray.push(files[i])
-                }
-                displayImages()
-              })
-
-              function displayImages() {
-                let images = ""
-              }
-              function displayImages() {
-                let images = ""
-                imagesArray.forEach((image, index) => {
-                  images += `<div class="image">
-                              <img src="${URL.createObjectURL(image)}" alt="image">
-                              <span onclick="deleteImage(${index})">&times;</span>
-                            </div>`
+            <output></output>
+            
+            <script>
+                const inputDiv = document.querySelector(".input-div")
+                const input = document.querySelector("input")
+                const output = document.querySelector("output")
+                let imagesArray = []
+                input.addEventListener("change", () => {
+                    input.addEventListener("change", () => {
+                        const files = input.files
+                    })
                 })
-              }
-
-              function displayImages() {
-                let images = ""
-                imagesArray.forEach((image, index) => {
-                  images += `<div class="image">
-                              <img src="${URL.createObjectURL(image)}" alt="image">
-                              <span onclick="deleteImage(${index})">&times;</span>
-                            </div>`
+                input.addEventListener("change", () => {
+                    const files = input.files
+                    for (let i = 0; i < files.length; i++) {
+                        imagesArray.push(files[i])
+                    }
                 })
-                output.innerHTML = images
-              }
-        
-              function deleteImage(index) {
-                imagesArray.splice(index, 1)
-                displayImages()
-              }
+                input.addEventListener("change", () => {
+                    const files = input.files
+                    for (let i = 0; i < files.length; i++) {
+                        imagesArray.push(files[i])
+                    }
+                    displayImages()
+                })
 
 
-        </script>
+                inputDiv.addEventListener("drop", (e) => {
+
+                })
+
+                inputDiv.addEventListener("drop", (e) => {
+                    e.preventDefault()
+                    const files = e.dataTransfer.files
+                })
+
+
+                inputDiv.addEventListener("drop", () => {
+                    e.preventDefault()
+                    const files = e.dataTransfer.files
+                    for (let i = 0; i < files.length; i++) {
+                        if (!files[i].type.match("image")) continue
+                    }
+                })
+
+                inputDiv.addEventListener("drop", () => {
+                    e.preventDefault()
+                    const files = e.dataTransfer.files
+                    for (let i = 0; i < files.length; i++) {
+                        if (!files[i].type.match("image")) continue
+
+                        if (imagesArray.every(image => image.name !== files[i].name))
+                        imagesArray.push(files[i])
+                    }
+                })
+
+                inputDiv.addEventListener("drop", () => {
+                    e.preventDefault()
+                    const files = e.dataTransfer.files
+                    for (let i = 0; i < files.length; i++) {
+                        if (!files[i].type.match("image")) continue;
+
+                        if (imagesArray.every(image => image.name !== files[i].name))
+                        imagesArray.push(files[i])
+                    }
+                    displayImages()
+                })
+
+                function displayImages() {
+                    let images = ""
+                }
+                function displayImages() {
+                    let images = ""
+                    imagesArray.forEach((image, index) => {
+                        images += `<div class="image">
+                                    <img src="${URL.createObjectURL(image)}" alt="image">
+                                    <span onclick="deleteImage(${index})">&times;</span>
+                                    </div>`
+                    })
+                }
+
+                function displayImages() {
+                    let images = ""
+                    imagesArray.forEach((image, index) => {
+                        images += `<div class="image">
+                                    <img src="${URL.createObjectURL(image)}" alt="image">
+                                    <span onclick="deleteImage(${index})">&times;</span>
+                                    </div>`
+                    })
+                    output.innerHTML = images
+                }
+
+                function deleteImage(index) {
+                    imagesArray.splice(index, 1)
+                    displayImages()
+                }
+
+
+            </script>
        
-
+        </div>
 
     </body>
 </html>
