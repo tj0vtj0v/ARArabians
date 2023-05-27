@@ -1,0 +1,22 @@
+
+
+#Kontakt{
+    margin-left: auto;
+    margin-right: 0;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .Kontaktdaten{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .Kontaktbild{
+    width: 55px;
+    height: 55px;
+  }
+  
