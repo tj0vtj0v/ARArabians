@@ -27,10 +27,8 @@
 
   
   .KontaktFoto{
-    width: 500px;
+    width: 700px;
     height: 300px;
-    border:  2px solid black;
-    border-radius: 1px;
     margin-left: 50px;
     margin-right: 50px;
     padding: 2em;
@@ -40,5 +38,7 @@
     font-size: 18px;
     background-color: blue;
     margin-top: 10px;
+    background-size: 668px;
+    
   }
   

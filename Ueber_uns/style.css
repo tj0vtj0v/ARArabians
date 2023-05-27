@@ -1,14 +1,19 @@
 .TeamWir{
     width: 700px;
     height: 300px;
-    border:  2px solid grey;
-    border-radius: 1em 1em 1em 1em;
-    margin:  20px auto;
+    /* border:  2px solid grey;
+    border-radius: 1em 1em 1em 1em; */
+    margin:  10px auto;
     padding: 2em;
     text-align: center;
     font-style: italic;
     font-weight: bold;
     font-size: 18px;
+  }
+
+  .Video{
+    width: 700px;
+    height: auto;
   }
   
   .Teams { 
