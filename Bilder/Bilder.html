@@ -8,6 +8,7 @@
 
         <title>Bilder</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
     </head>
 
     <body style="background-color:rgb(233, 227, 227);">
@@ -19,14 +20,10 @@
             <a href="Bilder.html" style="color: white">Bilder</a>
             
             <br> 
-    
-
-            <div class="input-div">
-                <p>Drag & drop photos here</p>
-                <input type="file" class="file" multiple="multiple" accept="image/jpeg, image/png, image/jpg">
-            </div>
-          
             <output></output>
+        <div id="pics">
+            
+        </div>
             
             <script>
                 const inputDiv = document.querySelector(".input-div")
@@ -97,6 +94,7 @@
                 function displayImages() {
                     let images = ""
                 }
+
                 function displayImages() {
                     let images = ""
                     imagesArray.forEach((image, index) => {
