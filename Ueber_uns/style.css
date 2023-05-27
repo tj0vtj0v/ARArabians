@@ -1,0 +1,107 @@
+.TeamWir{
+    width: 700px;
+    height: 300px;
+    border:  2px solid grey;
+    border-radius: 1em 1em 1em 1em;
+    margin:  20px auto;
+    padding: 2em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .Teams { 
+    display: flex; 
+    justify-content:space-between;
+    margin: 2em 8em 2em 8em ;
+  }
+  .Team {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .Team:hover .Karte {
+    transform: rotateY(180deg);
+  }
+  
+  .Karte, .front, .back{
+    width: 200px;
+    height: 200px;
+    border-radius: 1em;
+  }
+  
+  .Karte {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+  
+  .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    text-align: center;
+  }
+  .front{
+    z-index: 1;
+    transform: rotateY(0deg);
+    background-color: grey;
+  }
+  
+  .back {
+    z-index: 1;
+    transform: rotateY(180deg);
+    background-color: grey;
+    font-size: 17px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .HediBild{
+    width: 200px;
+    height: 200px;
+    margin: -1em;
+    border-radius: 1em 1em 1em 1em;
+    object-fit: cover;
+  
+  }
+  
+  .HansBild{
+    width: 200px;
+    height: 200px;
+    margin: -1em;
+    border-radius: 1em 1em 1em 1em;
+    object-fit: cover;
+  }
+  
+  .Anna-LenaBild{
+    width: 200px;
+    height: 200px;
+    margin: -1em;
+    border-radius: 1em 1em 1em 1em;
+    object-fit: cover;
+  
+  }
+  
+  .FranziBild{
+    width: 200px;
+    height: 200px;
+    margin: -1em;
+    border-radius: 1em 1em 1em 1em;
+    object-fit: cover;
+  
+  }
+  
+  .TheresaLucasBild{
+    width: 200px;
+    height: 200px;
+    margin: -1em;
+    border-radius: 1em 1em 1em 1em;
+    object-fit: cover;
+  
+  }
