@@ -1,22 +1,44 @@
 
 
 #Kontakt{
-    margin-left: auto;
-    margin-right: 0;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-top: 80px;
     text-align: center;
     font-style: italic;
     font-size: 18px;
-    width: 400px;
+    width: auto;
     height: 400px;
+    display:flex; 
+    justify-content:space-between;
   }
   
   .Kontaktdaten{
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
+    
   }
   
   .Kontaktbild{
     width: 55px;
     height: 55px;
+  }
+
+  
+  .KontaktFoto{
+    width: 500px;
+    height: 300px;
+    border:  2px solid black;
+    border-radius: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 2em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: blue;
+    margin-top: 10px;
   }
   
