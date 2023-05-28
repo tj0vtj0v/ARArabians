@@ -1,44 +1,27 @@
-
-
-#Kontakt{
-    margin-left: 250px;
+.Kontakt{
+    display: flex;
+    justify-content: space-around;
     margin-right: auto;
     margin-top: 80px;
     text-align: center;
     font-style: italic;
     font-size: 18px;
-    width: auto;
-    height: 400px;
-    display:flex; 
-    justify-content:space-between;
-  }
-  
-  .Kontaktdaten{
-    width: 500px;
+}
+.Kontaktdaten{
+    min-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    
-  }
-  
-  .Kontaktbild{
+}
+.Kontaktbild{
     width: 55px;
     height: 55px;
-  }
-
-  
-  .KontaktFoto{
-    width: 700px;
-    height: 300px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 2em;
-    text-align: center;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 18px;
-    background-color: blue;
-    margin-top: 10px;
-    background-size: 668px;
-    
-  }
-  
+}
+.KontaktFoto{
+    width: 600px;
+    min-width: 500px;
+    height: 100%;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}

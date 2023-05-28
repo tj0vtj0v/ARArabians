@@ -1,35 +1,31 @@
 .boxframe{
-    display: flex; 
+    display: flex;
 }
 .box{
-    width: 300px;
-    height: 300px;
-    color: white;
+    width: 350px;
+    height: 350px;
     background-color: lightgrey;
-    border:  2px solid grey;
     border-radius: 1em;
-    margin:  20px auto;
-    padding: 2em;
+    border:  2px solid grey;
+    margin: 20px auto;
     text-align: center;
     font-style: italic;
     font-weight: bold;
     font-size: 18px;
 }
+.box:hover{
+    box-shadow: 0 0 100px 5px grey;
+}
 .image{
-    width: 370px;
-    height: 390px;
-    margin: -2em;
+    width: 354px;
+    height: 354px;
+    margin: -2px;
     border-radius: 1em;
 }
 .text{
     position: absolute;
+    margin-left: 120px;
+    margin-top: 135px;
     color: white;
-    text-align: right;
-    margin: 100px;
     font-size: 20px;
-}
-.box:hover{
-    box-shadow: inset 500px 0 0 0 white;
-    color: white;
-    box-shadow: 0 0 50px 10px grey;
 }
